@@ -1,0 +1,54 @@
+#main {
+				-moz-border-radius-topleft: 4px;
+				-moz-border-radius-topright: 3px;
+				-moz-border-radius-bottomright: 6px;
+				-moz-border-radius-bottomleft: 10px;
+				-moz-box-align: center;
+			}
+
+			body {
+				background-color: #8f93ad;
+				text-align: center;
+				border-radius: 10px;
+				font-family: Montserrat;
+			}
+
+			/* This is a custom snippet I made so the footer always stays at the bottom of the page */
+			footer {
+				position: absolute;
+				right: 0;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				padding: 1rem;
+				background-color: transparent;
+				text-align: center;
+			}
+
+			#myForm {
+				margin-top: 1rem;
+				border-bottom: 0.6px solid black;
+				border-top: 0.9px solid black;
+				border-left: 0.9px solid black;
+				border-right: 0.6px solid black;
+				border-radius: 30px;
+				margin-bottom: 1rem;
+			}
+
+			.btn1,
+			.btn2 {
+				background-color: rgb(56, 56, 223);
+				border: #2e6da4;
+				font-family: Arial, Geneva, Arial, Helvetica, sans-serif;
+				font-size: 18px;
+				color: #fff;
+				letter-spacing: 2px;
+				padding: 8px 12px;
+				font-size: 14px;
+				font-weight: normal;
+				border-radius: 4px;
+				line-height: 1.5;
+				text-decoration: none;
+				box-shadow: 0 0 4px black;
+			}
